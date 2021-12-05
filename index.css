@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/backgroud.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+a:link, a:visited {
+  background-color: tomato;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid tomato;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+h1 {
+    text-shadow: 2px 2px 5px red;
+  }
+li {
+    display: inline;
+  }
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color : tomato;
+    color: white;
+  }
